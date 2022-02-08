@@ -1,0 +1,23 @@
+	body{
+		background-color: #bcd9e7;
+		font-family: 'Poppins', sans-serif;
+	}
+
+	h1{
+		color:#061a23;
+		text-align:center;
+	}
+	
+	p{
+		color:#001b36;
+		text-align:center;
+	}
+	
+	img{
+		width: 400px;
+	}
+	
+	h4{
+		color:#ffff;
+		text-align:center;
+	}

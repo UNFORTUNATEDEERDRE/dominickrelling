@@ -1,0 +1,40 @@
+body{
+	background-color: #e7f5ff;
+	font-family: 'Poppins', sans-serif;
+}
+
+.box{
+	position:absolut;
+	font-weight: bold;
+	background-color:#bcd9e7;
+}
+
+legend{
+	text-align:center;
+	color:#061a23;
+	border: 3px solid #075f99;
+	padding:auto;
+}
+
+p{
+	text-align:center;
+}
+
+fieldset{
+	border: 3px solid #075f99;
+}
+
+.input{
+	position:relative;
+}
+
+.inputUser{
+	background-color:none;
+	border:none;
+	border-bottom:1px, solid, white;
+	outiline: none;
+	color: black;
+	font-size:15px;
+	width: 100%;
+	letter-spacing:2px;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Form</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 10px;
+        }
+
+        form {
+            font-family: Verdana, Tahoma, sans-serif;
+            font-size: 15px;
+            background-color: #
+            max-width: 500px;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px;
+            color: #000000;
+        }
+
+        input,
+        textarea {
+            width: 200px;
+            padding: 10px;
+            color: #000000;
+            margin-left: 20px;
+            margin-top: 10px;
+            border-radius: 3px;
+            border: 1px solid;
+        }
+
+
+        input:hover,
+        textarea:hover,
+        input:focus,
+        textarea:focus {
+            border-color: #01140273;
+            box-shadow: 5px 0px 9px #E0FFFF;
+            background-color: #B0E0EB;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        .encaminhar {
+            background-color: #B0E0EB;
+            height: 40px;
+            width: 100px;
+            font-weight: bold;
+            margin: 20px;
+            border-radius: 5px;
+            border: 1px solid;
+            color: #000000;
+        }
+
+        textarea {
+            width: 400px;
+            height: 120px;
+            line-height: 20px;
+            max-width: 400px;
+        }
+
+        form label {
+            margin-left: 20px;
+            color: #000000;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form name="meu_form">
+
+        <h1>Faça seu cadastro</h1>
+
+        <input type="texto" id="nomeid" placeholder="Ariane Junkes" required="required" name="nome" />
+        <label for="nome">Nome</label>
+
+        <input type="telefone" id="foneid" placeholder="(xx) xxx-xx-xx-xx" name="fone" />
+        <label for="fone">Fone</label>
+
+        <input type="dat" id="datanascid" placeholder="DD/MM/AAAA" name="datanasc." />
+        <label for="data">Data Nasc.</label>
+
+        <input type="email" id="emailid" placeholder="email@email.com" name="email" />
+        <label for="email">E-mail</label>
+        
+        <input type="password" id="senhaid" placeholder="senha" name="senha" />
+        <label for="senha">Senha</label>
+        
+        <input type="password" id="senhaid" placeholder="confimar senha" name="senha" />
+        <label for="senha">Confirmar Senha</label>
+
+        <input type="submit" class="Cadastrar-se" onclick="Cadastrar-se();" value="Cadastrar-se" />
+    </form>
+
+    <script>
+        function Encaminhar() {
+
+            var nome = document.getElementById("nomeid");
+
+            if (nome.value != "") {
+                alert('Grata Sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso. Você está cadastrado/a');
+            }
+
+        }
+    </script>
+</body>
+
+</html>

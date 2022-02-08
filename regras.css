@@ -1,0 +1,36 @@
+body{
+	background-color: #bcd9e7;
+	font-family: 'Poppins', sans-serif;
+}
+
+.centralizar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+}
+  
+.center {
+ 	display: block;
+	margin-left: auto;
+ 	margin-right: auto;
+ 	width:500px;
+}
+ 
+h1{
+	color:#061a23;
+	text-align:center;
+}
+ 
+h2{
+	color: #0f3c4c;
+	text-align: center;
+}
+h3{
+	color:#ffff;
+	text-align: center;
+}
+
+p{
+	text-align: justify;
+}
